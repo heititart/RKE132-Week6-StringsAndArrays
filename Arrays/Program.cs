@@ -5,16 +5,27 @@
 
 string[] fruit = new string[3];
 
-Console.WriteLine("Enter first fruit:");
-fruit[0] = Console.ReadLine();
+fruit[0] = "apple";
 
-Console.WriteLine("Enter second fruit:");
-fruit[1] = Console.ReadLine();
+fruit[1] = "banana";
 
-Console.WriteLine("Enter third fruit:");
-fruit[2] = Console.ReadLine();
+fruit[2] = "orange";
+
 
 Console.WriteLine($" {fruit[0]},{fruit[1]},{fruit[2]}" );
 
+
 int fruitArrayLength = fruit.Length;
-Console.WriteLine($"There are: {fruitArrayLength} in your refrigerator" );
+Console.WriteLine($"There are: {fruitArrayLength} items in your refrigerator" );
+
+
+for (int i = 0; i < fruitArrayLength; i++)
+{
+    fruit[i] = fruit[i].Replace(fruit[i][0], char.ToUpper(fruit[i][0]));
+    
+}
+
+foreach (string element in fruit)
+{
+    Console.WriteLine(element);
+}

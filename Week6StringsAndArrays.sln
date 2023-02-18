@@ -3,11 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.4.33213.308
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Week6StringsAndArrays", "Week6StringsAndArrays\Week6StringsAndArrays.csproj", "{3991EF2B-FA23-4F4B-8D19-4CC0F3960C89}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Week6StringsAndArrays", "Week6StringsAndArrays\Week6StringsAndArrays.csproj", "{3991EF2B-FA23-4F4B-8D19-4CC0F3960C89}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Week6StringAndArrays_Ver.2", "Week6StringAndArrays_Ver.2\Week6StringAndArrays_Ver.2.csproj", "{36B6BA4E-8A1E-4FDE-A860-DC0688A3084C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Week6StringAndArrays_Ver.2", "Week6StringAndArrays_Ver.2\Week6StringAndArrays_Ver.2.csproj", "{36B6BA4E-8A1E-4FDE-A860-DC0688A3084C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Arrays", "Arrays\Arrays.csproj", "{F12F615F-7C33-4B4D-B6E1-FE52CBFBA120}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Arrays", "Arrays\Arrays.csproj", "{F12F615F-7C33-4B4D-B6E1-FE52CBFBA120}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NumberArrays", "NumberArrays\NumberArrays.csproj", "{A25C54E3-B6C3-4C09-B131-3C90F8E63C1D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RandomElement", "RandomElement\RandomElement.csproj", "{30B77A67-226A-4146-A6AA-97F116404A88}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +31,14 @@ Global
 		{F12F615F-7C33-4B4D-B6E1-FE52CBFBA120}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F12F615F-7C33-4B4D-B6E1-FE52CBFBA120}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F12F615F-7C33-4B4D-B6E1-FE52CBFBA120}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A25C54E3-B6C3-4C09-B131-3C90F8E63C1D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A25C54E3-B6C3-4C09-B131-3C90F8E63C1D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A25C54E3-B6C3-4C09-B131-3C90F8E63C1D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A25C54E3-B6C3-4C09-B131-3C90F8E63C1D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{30B77A67-226A-4146-A6AA-97F116404A88}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{30B77A67-226A-4146-A6AA-97F116404A88}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{30B77A67-226A-4146-A6AA-97F116404A88}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{30B77A67-226A-4146-A6AA-97F116404A88}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
